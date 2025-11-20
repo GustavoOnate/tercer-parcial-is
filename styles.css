@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+
+:root {
+    --font-primary: "Manrope", sans-serif;
+    --grey-20: #333333;
+    --grey-30: #4d4d4d;
+    --peach-85: #E1DBD1;
+    --peach-90: #EBE7E0;
+
+
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: var(--peach-85);
+    font-family: var(--font-primary);
+    line-height: 1.6;
+    padding: 40px 20px;
+}
+
+.FAQ-header {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.FAQ-header h2 {
+    font-size: 48px;
+}
+
+.FAQ-header p{
+    font-size: 18px;
+}
