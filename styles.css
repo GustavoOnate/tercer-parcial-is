@@ -434,7 +434,6 @@ body {
     justify-content: center;
   }
 
-/* Móviles muy pequeños (gama baja: hasta 320px) - Ej. iPhone 4, móviles antiguos */
 @media only screen and (max-width: 320px) {
     .container {
         padding: 5px;
@@ -481,7 +480,7 @@ body {
     footer { padding: 10px 0; font-size: 12px; }
 }
 
-/* Móviles pequeños (gama baja/media: 321px - 480px) - Ej. iPhone SE, móviles básicos */
+
 @media only screen and (min-width: 321px) and (max-width: 480px) {
     .container {
         padding: 8px;
@@ -525,7 +524,7 @@ body {
     footer { padding: 12px 0; font-size: 14px; }
 }
 
-/* Móviles grandes/Tablets pequeñas (gama media: 481px - 600px) - Ej. iPhone 12, tablets básicas */
+
 @media only screen and (min-width: 481px) and (max-width: 600px) {
     .container {
         padding: 10px;
@@ -568,7 +567,6 @@ body {
     footer { padding: 15px 0; }
 }
 
-/* Tablets pequeñas (gama media: 601px - 768px) - Ej. iPad mini, tablets estándar */
 @media only screen and (min-width: 601px) and (max-width: 768px) {
     .container {
         padding: 15px;
@@ -605,7 +603,7 @@ body {
     footer { padding: 18px 0; }
 }
 
-/* Tablets grandes (gama media: 769px - 1024px) - Ej. iPad Pro 10.5, laptops pequeñas */
+
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
     .container {
         padding: 20px;
@@ -638,7 +636,7 @@ body {
     footer { padding: 20px 0; }
 }
 
-/* Desktops pequeños (gama alta: 1025px - 1200px) - Ej. laptops estándar, monitores 1080p */
+
 @media only screen and (min-width: 1025px) and (max-width: 1200px) {
     .container {
         padding: 25px;
@@ -671,7 +669,7 @@ body {
     footer { padding: 25px 0; }
 }
 
-/* Desktops medianos (gama alta: 1201px - 1440px) - Ej. monitores 1440p */
+
 @media only screen and (min-width: 1201px) and (max-width: 1440px) {
     .container {
         padding: 30px;
@@ -704,7 +702,7 @@ body {
     footer { padding: 30px 0; }
 }
 
-/* Desktops grandes (gama alta: 1441px - 1920px) - Ej. monitores 4K estándar */
+
 @media only screen and (min-width: 1441px) and (max-width: 1920px) {
     .container {
         padding: 35px;
@@ -737,7 +735,7 @@ body {
     footer { padding: 35px 0; }
 }
 
-/* Pantallas ultra grandes (gama alta: 1921px+) - Ej. monitores 4K+, TVs */
+
 @media only screen and (min-width: 1921px) {
     .container {
         padding: 40px;
