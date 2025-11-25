@@ -434,3 +434,105 @@ body {
     justify-content: center;
   }
     
+
+
+  @media /*moviles*/ (min-width: 375px) and (max-width: 768px) {
+.FAQ-body {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+    }
+
+    .Accordion {
+        padding: 30px;
+        margin-left: 0;
+        width: 100%;
+        max-width: 600px;
+    }
+
+    .Contact-card {
+        padding: 30px;
+        width: 100%;
+        max-width: 600px;
+    }
+
+    body {
+        padding: 20px 10px;
+    }
+
+    .FAQ-header h2, .benefits-header h2 {
+        font-size: 36px;
+    }
+    
+    .benefits-header p {
+        font-size: 16px;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .card {
+        padding: 20px;
+    }
+
+    .card h3 {
+        font-size: 20px;
+    }
+
+    .wide, .narrow {
+        grid-column: span 1;
+    }
+
+    .footer-section {
+        margin-top: 40px;
+        padding: 30px 0;
+    }
+
+    .footer-top {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto 30px;
+        padding: 0 10px;
+        gap: 25px;
+    }
+
+    .footer-menu {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 16px;
+        font-size: 14px;
+        order: 2;
+    }
+
+    .redes {
+        justify-content: center;
+        gap: 10px;
+        order: 1;
+    }
+    
+    .copyright {
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .contact-bar {
+        display: none;
+    }
+    .contacts {
+        display: none;
+    }
+    .separator {
+        display: none;
+    }
+}
+
+
+    
+  
