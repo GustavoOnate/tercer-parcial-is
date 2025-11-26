@@ -1073,3 +1073,17 @@ position: absolute;
     font-size: 0.8em;
     margin-top: 30px;
 }
+
+.heroabout {
+    display: flex;
+    width: 80%; 
+    margin: auto;
+    padding-top: 124px;
+    gap: 80px;
+    justify-content: center;
+}
+
+.heroaboutdescription {
+    width: 758px;
+}
+
