@@ -18,8 +18,30 @@
         </nav>
     </header>
 
+    <section class="contact-section">
+        <div class="contact-header">
+            <img src="icon_message.svg" alt="Icono de mensaje">
+            <h1>We'd love to hear from you.</h1>
+            <p>Here's what some of my satisfied clients have to say about my work</p>
+            <div class="service-benefits">
+                <div class="benefit-item">
+                    <img src="24_7.svg" alt="24/7 Assistance">
+                    <span>24/7 Assistance</span>
+                </div>
+                <div class="benefit-item">
+                    <img src="thunder.svg" alt="Quick Change Resolutions">
+                    <span>Quick Change Resolutions</span>
+                </div>
+                <div class="benefit-item">
+                    <img src="glitters.svg" alt="Flexible Working Hours">
+                    <span>Flexible working Hours</span>
+                </div>
+            </div>
+        </div>
+    </section>
+<!--
     <div class="we_loved_from">
-        <!--  Message  -->
+          Message  
         <div class="grid-container">
         <div class="we_loved_from_header">
             <a href="#">
@@ -110,52 +132,94 @@
             </div>
             <p></p>
         </div>
-        <div class="box c">
-            <div class="card narrow">
-                <div class="datos_personales">
-                    <ul>
-                        <li>
-                            <a href="#">First name</a>
-                        </li>
-                        <li>
-                            <a href="#">Last name</a>
-                        </ul>
-                        <li>
-                            <a href="#">Email</a>
-                        </li>
-                        <li>
-                            <a href="#">Phone Number</a>
-                        </li>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="iconos_redes">
-        <div class="grid-container">
-            <ul>
-                <li>
-                    <a href="#">
-                        <img src="Indeed.svg" alt="">
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <img src="twitter.svg" alt="">
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <img src="balon.png" alt="">
-                    </a>
-                </li>
-            </ul>
-        </div>
+        
     </div>
     <div class="FAQ">
         <div class="FAQ-header">
             <h2>Frequently Asked Questions</h2>
             <p>Here are answers to some common questions</p>
        </div>
+       -->
+
+        <div class="contact-content-container">
+            <div class="contact-info-column">
+                <div class="info-card">
+                    <h3>You can Email Me Here</h3>
+                    <p>jefferycannon@gmail.com</p>
+                    <a href="mailto:jefferycannon@gmail.com" class="arrow-link">
+                        <img src="arrow.svg" alt="Ir a">
+                    </a>
+                </div>
+
+                <div class="info-card">
+                    <h3>Give Me a Call on</h3>
+                    <p>+91 91813 23 2309</p>
+                    <a href="tel:+9191813232309" class="arrow-link">
+                        <img src="arrow.svg" alt="Llamar">
+                    </a>
+                </div>
+
+                <div class="info-card">
+                    <h3>Location</h3>
+                    <p>Somewhere in the World</p>
+                    <a href="#" class="arrow-link">
+                        <img src="arrow.svg" alt="Ver ubicación">
+                    </a>
+                </div>
+
+                <div class="social-profiles-card">
+                    <h4>My Social Profiles</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="LinkedIn">
+                            <img src="Indeed.svg" alt="LinkedIn">
+                        </a>
+                        <a href="#" aria-label="Twitter">
+                            <img src="twitter.svg" alt="Twitter">
+                        </a>
+                        <a href="#" aria-label="Dribbble">
+                            <img src="balon.png" alt="Dribbble">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form-column">
+                <form action="#" method="POST">
+                    <div class="form-row">
+                        <input type="text" id="firstName" name="firstName" placeholder="First Name">
+                        <input type="text" id="lastName" name="lastName" placeholder="Last Name">
+                    </div>
+                    <div class="form-row">
+                        <input type="email" id="email" name="email" placeholder="Email">
+                        <input type="tel" id="phone" name="phone" placeholder="Phone Number">
+                    </div>
+
+                    <h4>Why are you contacting us?</h4>
+                    <div class="contact-reason-options">
+                        <label>
+                            <input type="radio" name="reason" value="web-design">
+                            Web Design
+                        </label>
+                        <label>
+                            <input type="radio" name="reason" value="collaboration">
+                            Collaboration
+                        </label>
+                        <label>
+                            <input type="radio" name="reason" value="mobile-app-design">
+                            Mobile App Design
+                        </label>
+                        <label>
+                            <input type="radio" name="reason" value="others">
+                            Others
+                        </label>
+                    </div>
+
+                    <textarea id="message" name="message" placeholder="Your Message here..."></textarea>
+
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </div>
 
      <div class="FAQ-body">
         <div class="Accordion">
