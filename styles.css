@@ -823,7 +823,7 @@ position: absolute;
     text-align: center;
     padding: 80px 20px 50px;
     position: relative;
-    background-color: var(--color-background); 
+    background-color: var(--peach-92); 
 }
 
 .header-icon {
@@ -876,7 +876,7 @@ position: absolute;
 /* --- 3. Proyectos por Año --- */
 .projects-section {
     padding: 40px 80px;
-    background-color: var(--color-background);
+    background-color: var(--peach-92);
 }
 
 .section-header {
