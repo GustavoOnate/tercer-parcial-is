@@ -2490,7 +2490,7 @@ position: absolute;
     }
     .timelinerecent,
     .timelineold {
-        display: none;
+        display: flex;
     }
     .now, .year, .year2018 {
         margin-top: 50px;
