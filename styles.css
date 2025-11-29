@@ -1155,7 +1155,7 @@ position: absolute;
 
 .timelinerecent,
 .timelineold {
-    display: none; 
+    display: flex; 
 }
 
 .milestonesintroduction {
